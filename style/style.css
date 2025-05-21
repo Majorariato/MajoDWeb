@@ -16,6 +16,7 @@ ol, ul {
 
 header {
     padding-top: 5px;
+    filter: drop-shadow(0 0 0.75rem #181818);
     background-color: #86cecb
 }
 
@@ -40,8 +41,6 @@ main {
 
 .titulo {
     text-align: center;
-   
-
 }
 
 h1 {
@@ -92,5 +91,34 @@ hr {
 .imgder {
   padding-left: 2.5em;
   padding-right: 5em;
+  filter: drop-shadow(0 0 0.75rem #181818);
+}
+
+footer {
+    background-color: #86cecb;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 30px;
+    filter: drop-shadow(0 0 0.75rem #181818);
+}
+
+.mikuflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  filter: drop-shadow(0 0 0.75rem #181818);
+}
+
+.borderbox {
+  background-color: #86cecb;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
   filter: drop-shadow(0 0 0.75rem #181818);
 }
