@@ -12,13 +12,15 @@
 </head>
 <body>
     <header>
-        <nav>
-         <ul>
-          <li><a href="../index.html">Inicio</a></li>
-         <li><a href="./hitsmiku.html">Hits de Miku</a></li>
-         <li><a href="./otrosp.html">Otros programas</a></li>
-         <li><a href="./hitsd.html">Hits diversos</a></li>
-         <li><a href="./contactos.html">Contactos</a></li>
+        <nav class="navbar-vocaloid">
+         <ul class="nav-list"><img src="../images/logo.svg" class="logo" alt="">
+          <li class="nav-link"><a href="../index.html">Inicio</a></li>
+         <li class="nav-link"><a href="./hitsmiku.html">Hits de Miku</a></li>
+         <li class="nav-link"><a href="./otrosp.html">Otros programas</a></li>
+         <li class="nav-link"><a href="./hitsd.html">Hits diversos</a></li>
+         <li class="nav-link"><a href="./contactos.html">Contactos</a></li>
+         <img class="btn" src="../images/menu-icon.svg" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+          aria-controls="offcanvasTop"></img>
         </ul>
         </nav>
     </header>
@@ -28,6 +30,21 @@
         <hr>
         
     <main>
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasTopLabel">¡Explora!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="nav-list">
+                    <li class="nav-link-mobile"><a href="../index.html">Inicio</a></li>
+                    <li class="nav-link-mobile"><a href="./hitsmiku.html">Hits de Miku</a></li>
+                    <li class="nav-link-mobile"><a href="./otrosp.html">Otros programas</a></li>
+                    <li class="nav-link-mobile"><a href="./hitsd.html">Hits diversos</a></li>
+                    <li class="nav-link-mobile" z><a href="./contactos.html">Contactos</a></li>
+                </ul>
+            </div>
+        </div>
     <section class="mikuflex">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/6SviXq0yFE8?si=0jUWvYOxKUctyNDN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         

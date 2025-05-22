@@ -1,57 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Share+Tech&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Share+Tech&display=swap"
+        rel="stylesheet">
     <title>Vocaloid</title>
 </head>
+
 <body>
     <header>
-        <nav>
-         <ul>
-         <li><a href="./index.html">Inicio</a></li>
-         <li><a href="./pages.html/hitsmiku.html">Hits de Miku</a></li>
-         <li><a href="./pages.html/otrosp.html">Otros programas</a></li>
-         <li><a href="./pages.html/hitsd.html">Hits diversos</a></li>
-         <li><a href="./pages.html/contactos.html">Contactos</a></li>
-        </ul>
+        <nav class="navbar-vocaloid">
+            <ul class="nav-list"><img src="../images/logo.svg" class="logo" alt="">
+                <li class="nav-link"><a href="./index.html">Inicio</a></li>
+                <li class="nav-link"><a href="./pages.html/hitsmiku.html">Hits de Miku</a></li>
+                <li class="nav-link"><a href="./pages.html/otrosp.html">Otros programas</a></li>
+                <li class="nav-link"><a href="./pages.html/hitsd.html">Hits diversos</a></li>
+                <li class="nav-link"><a href="./pages.html/contactos.html">Contactos</a></li>
+                <img class="btn" src="../images/menu-icon.svg" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                aria-controls="offcanvasTop"></img>
+            </ul>
         </nav>
     </header>
     <main>
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasTopLabel">¡Explora!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="nav-list">
+                    <li class="nav-link-mobile"><a href="./index.html">Inicio</a></li>
+                    <li class="nav-link-mobile"><a href="./pages.html/hitsmiku.html">Hits de Miku</a></li>
+                    <li class="nav-link-mobile"><a href="./pages.html/otrosp.html">Otros programas</a></li>
+                    <li class="nav-link-mobile"><a href="./pages.html/hitsd.html">Hits diversos</a></li>
+                    <li class="nav-link-mobile" z><a href="./pages.html/contactos.html">Contactos</a></li>
+                </ul>
+            </div>
+        </div>
         <div class="titulo">
             <h1>¿Quien es Hatsune Miku?</h1>
         </div>
         <hr>
         <div class="indexgrilla">
-            <img src="images/pngwing.com (1).png" alt="" class="imgiz">
-            <p class="textoindex">Hatsune Miku es una cantante virtual japonesa creada por Crypton Future Media. Usa una tecnología de síntesis de voz llamada Vocaloid, y su voz proviene de la actriz Saki Fujita. Aunque no es una persona real, Miku se ha convertido en un ícono del pop, protagonizando canciones, conciertos en vivo con hologramas y colaboraciones con artistas de todo el mundo.
-             Pero para entender mejor. <strong>Que es vocaloid?</strong>
-             Vocaloid es un software de síntesis de voz desarrollado por Yamaha que permite crear canciones haciendo que una voz virtual cante. Funciona ingresando la letra y la melodía, y el programa usa bancos de voz grabados por cantantes reales para producir el canto. Se usa ampliamente en la música, especialmente en géneros como el pop y el electrónico, y ha dado origen a personajes populares, como <strong>Hatsune Miku.</strong>
-             Ahora que ya sabemos que es vocaloid, indagemos mas en el banco de voz mas popular del internet.
-            
-             Hatsune Miku es una cantante virtual japonesa y uno de los íconos digitales más influyentes del siglo XXI. Su nombre significa “el primer sonido del futuro” (初音ミク), y fue desarrollada por la empresa Crypton Future Media. Nació oficialmente el 31 de agosto de 2007, como parte de la serie de software Vocaloid 2 desarrollada por Yamaha Corporation, diseñado para sintetizar voz humana a partir de texto y notas musicales. La voz de Miku fue creada utilizando samples grabados por la actriz de voz Saki Fujita, lo que le dio una entonación dulce, juvenil y ligeramente etérea, perfecta para los géneros de pop y electrónica.
-            
-            Desde su lanzamiento, Hatsune Miku dejó de ser simplemente un programa musical y se transformó en un fenómeno cultural. A diferencia de una cantante tradicional, Miku es una figura completamente digital, con una apariencia reconocible: cabello largo de color turquesa recogido en dos coletas, atuendo futurista basado en uniformes escolares y una actitud encantadora. Lo más revolucionario de Miku es su relación con el público: su popularidad se cimentó gracias a una comunidad global de músicos, ilustradores y fanáticos que comenzaron a crear y compartir canciones, animaciones, dibujos y videos protagonizados por ella. Así, Miku se convirtió en la musa colectiva de miles de creadores independientes.
+            <div class="col">
+                <img src="images/pngwing.com (1).png" alt="" class="imgiz">
+            </div>
+            <div class="col">
+                <p class="textoindex">
+                    Hatsune Miku es una cantante virtual japonesa creada por Crypton Future Media. Usa
+                    una tecnología de síntesis de voz llamada Vocaloid, y su voz proviene de la actriz Saki Fujita.
+                    Aunque no es una persona real, Miku se ha convertido en un ícono del pop, protagonizando canciones,
+                    conciertos en vivo con hologramas y colaboraciones con artistas de todo el mundo.
+                    Pero para entender mejor. <strong>Que es vocaloid?</strong>
+                    Vocaloid es un software de síntesis de voz desarrollado por Yamaha que permite crear canciones
+                    haciendo que una voz virtual cante. Funciona ingresando la letra y la melodía, y el programa usa
+                    bancos de voz grabados por cantantes reales para producir el canto. Se usa ampliamente en la música,
+                    especialmente en géneros como el pop y el electrónico, y ha dado origen a personajes populares, como
+                    <strong>Hatsune Miku.</strong>
+                    Ahora que ya sabemos que es vocaloid, indagemos mas en el banco de voz mas popular del internet.
 
-            A lo largo de los años, Hatsune Miku ha sido protagonista de más de 100,000 canciones creadas por usuarios, y su influencia ha cruzado fronteras físicas y culturales. Ha ofrecido conciertos “en vivo” alrededor del mundo mediante proyecciones holográficas 3D acompañadas de bandas reales, llenando estadios en Japón, Estados Unidos, Europa y otros países. Su presencia ha llegado también al mundo de la moda, videojuegos (como en la saga Project DIVA), anime, merchandising y colaboraciones con marcas internacionales, como Louis Vuitton o Google.
+                </p>
+                <p class="textoindex">
+                    Hatsune Miku es una cantante virtual japonesa y uno de los íconos digitales más influyentes del
+                    siglo XXI. Su nombre significa “el primer sonido del futuro” (初音ミク), y fue desarrollada por la
+                    empresa Crypton Future Media. Nació oficialmente el 31 de agosto de 2007, como parte de la serie de
+                    software Vocaloid 2 desarrollada por Yamaha Corporation, diseñado para sintetizar voz humana a
+                    partir de texto y notas musicales. La voz de Miku fue creada utilizando samples grabados por la
+                    actriz de voz Saki Fujita, lo que le dio una entonación dulce, juvenil y ligeramente etérea,
+                    perfecta para los géneros de pop y electrónica.
+                </p>
+                <p class="textoindex">
+                    Desde su lanzamiento, Hatsune Miku dejó de ser simplemente un programa musical y se transformó en un
+                    fenómeno cultural. A diferencia de una cantante tradicional, Miku es una figura completamente
+                    digital, con una apariencia reconocible: cabello largo de color turquesa recogido en dos coletas,
+                    atuendo futurista basado en uniformes escolares y una actitud encantadora. Lo más revolucionario de
+                    Miku es su relación con el público: su popularidad se cimentó gracias a una comunidad global de
+                    músicos, ilustradores y fanáticos que comenzaron a crear y compartir canciones, animaciones, dibujos
+                    y videos protagonizados por ella. Así, Miku se convirtió en la musa colectiva de miles de creadores
+                    independientes.
+                </p>
+                <p class="textoindex">
+                    A lo largo de los años, Hatsune Miku ha sido protagonista de más de 100,000 canciones creadas por
+                    usuarios, y su influencia ha cruzado fronteras físicas y culturales. Ha ofrecido conciertos “en
+                    vivo” alrededor del mundo mediante proyecciones holográficas 3D acompañadas de bandas reales,
+                    llenando estadios en Japón, Estados Unidos, Europa y otros países. Su presencia ha llegado también
+                    al mundo de la moda, videojuegos (como en la saga Project DIVA), anime, merchandising y
+                    colaboraciones con marcas internacionales, como Louis Vuitton o Google.
+                </p>
+                <p class="textoindex">
+                    Aunque Miku no tiene una personalidad canónica fija (al ser una herramienta creativa), ha sido
+                    representada de múltiples formas: como una estrella pop, una chica cotidiana, una figura melancólica
+                    o incluso como una heroína de ciencia ficción. Este carácter abierto le permite una adaptabilidad
+                    casi infinita, lo que la mantiene vigente y en constante evolución.
+                </p>
 
-            Aunque Miku no tiene una personalidad canónica fija (al ser una herramienta creativa), ha sido representada de múltiples formas: como una estrella pop, una chica cotidiana, una figura melancólica o incluso como una heroína de ciencia ficción. Este carácter abierto le permite una adaptabilidad casi infinita, lo que la mantiene vigente y en constante evolución.
-
-            Hatsune Miku no solo representa una innovación tecnológica, sino también una nueva forma de entender la creación artística colectiva. Es un símbolo del poder del internet y de la colaboración entre fans, y una prueba viviente (aunque digital) de que el arte puede florecer más allá de los límites físicos del cuerpo humano. En un mundo que cambia rápidamente, Miku continúa siendo un faro del futuro de la música, el entretenimiento y la cultura digital.
-            </p>
-
-            <img src="images/pngwing.com.png" alt="" class="imgder">
+                <p class="textoindex">
+                    Hatsune Miku no solo representa una innovación tecnológica, sino también una nueva forma de entender
+                    la creación artística colectiva. Es un símbolo del poder del internet y de la colaboración entre
+                    fans, y una prueba viviente (aunque digital) de que el arte puede florecer más allá de los límites
+                    físicos del cuerpo humano. En un mundo que cambia rápidamente, Miku continúa siendo un faro del
+                    futuro de la música, el entretenimiento y la cultura digital.
+                </p>
+            </div>
+            <div class="col">
+                <img src="images/pngwing.com.png" alt="" class="imgder">
+            </div>
         </div>
-
     </main>
     <footer>
-      <p>Derechos reservados © 2030 </p>
+        <p>Derechos reservados © 2030 </p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
