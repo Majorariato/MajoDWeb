@@ -1,0 +1,49 @@
+@media (min-width: 1300px) { 
+  .btn {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 1618px) { 
+ .logo{
+  width: 300px;
+ }
+}
+
+@media (max-width: 1720px) { 
+ .description {
+   font-size: 18px;
+ }
+}
+
+@media (max-width: 1300px) { 
+.nav-link {
+  visibility: hidden;
+  display: none;
+  }
+   h1 {
+  font-size: 400%;
+ }
+ .description {
+    font-size: 14px;
+ }
+}
+
+@media (max-width: 880px) { 
+ .tetoimage {
+    visibility: hidden;
+    display: none;
+ }
+}
+
+@media (max-width: 480px) { 
+ .logo{
+  width: 150px;
+ }
+ .titulo {
+  text-align: center;
+  h1 {
+    font-size: 36px;
+  }
+}
+}

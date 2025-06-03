@@ -79,7 +79,6 @@ hr {
   margin: 0;
   display: grid;
   grid-template-columns: auto 1fr auto;
-
   gap: 0;
   align-items: center;
 }
@@ -181,13 +180,13 @@ footer {
   }
 }
 
-@media (max-width: 1618px) { /* PRE-TABLET */
+@media (max-width: 1618px) { 
  .logo{
   width: 300px;
  }
 }
 
-@media (max-width: 1300px) { /* tablet */
+@media (max-width: 1300px) { 
 .nav-link {
   visibility: hidden;
   display: none;
@@ -196,7 +195,8 @@ footer {
   font-size: 400%;
  }
 }
-@media (max-width: 480px) { /* celular */
+
+@media (max-width: 480px) { 
  .logo{
   width: 150px;
  }
