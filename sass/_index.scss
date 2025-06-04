@@ -1,5 +1,7 @@
+@use '_variables.scss' as*;
+
 main {
-  color: rgb(235, 235, 235);
+  color:$colort;
   padding: 1rem;
 }
 
@@ -10,13 +12,13 @@ main {
 h1 {
   display: inline;
   font-size: 700%;
-  color: white;
+  color:$colort;
 }
 
 hr {
   width: 50%;
   height: 3px;
-  background-color:#86cecb;
+  background-color:$colorp;
   border: none;
   margin: 20px auto;
 }

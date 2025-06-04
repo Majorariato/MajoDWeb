@@ -33,7 +33,7 @@ a {
 }
 
 .nav-link a:hover {
-  color: rgb(235, 235, 235);
+  color: white;
   transition: color 0.15s ease;
 }
 
@@ -47,7 +47,7 @@ footer {
 }
 
 main {
-  color: rgb(235, 235, 235);
+  color: white;
   padding: 1rem;
 }
 

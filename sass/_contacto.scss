@@ -1,5 +1,7 @@
+@use '_variables.scss' as*;
+
 .borderbox {
-  background-color: #86cecb;
+  background-color:$colorp;
   margin-left: 80px;
   margin-right: 80px;
   padding: 20px;
