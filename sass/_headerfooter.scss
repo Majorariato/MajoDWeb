@@ -31,14 +31,12 @@ a {
    align-items: center;
    a {
      transition: color 0.15s ease;
+     &:hover{
+      color:$colort;
+      transition: color 0.15s ease;
+     }
      }
 }
-
-
-.nav-link a:hover {
-    color:$colort;
-    transition: color 0.15s ease;
-  }
 
 footer {
   background-color:$colorp;
@@ -47,4 +45,11 @@ footer {
   text-align: center;
   margin-top: 30px;
   filter: drop-shadow(0 0 0.75rem #181818);
+}
+
+.offcanvas{
+  &-body{
+    overflow: visible;
+    background-color: $bg-primary;
+  }
 }

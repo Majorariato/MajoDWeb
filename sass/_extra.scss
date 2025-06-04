@@ -10,6 +10,11 @@
   font-weight: 100;
   font-style: normal;
 }
+
+ol, ul {
+  list-style: none;
+}
+
 html, body {
   width: auto;
   height: 100%;
@@ -17,10 +22,12 @@ html, body {
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
   font-size: 100%;
   list-style-type: none;
   background-color:$colorf;
+  
 }
 main {
  min-height: 68.5dvh;
