@@ -27,11 +27,15 @@
  .description {
     font-size: 14px;
  }
-  .imgder {
-    display: none !important;
+  div{
+   &.col{
+    .imgder {
+    display: none;
   }
   .imgiz {
-    display: none !important;
+    display: none;
+  }
+   }
   }
 }
 

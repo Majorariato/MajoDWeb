@@ -209,11 +209,11 @@ main {
   .description {
     font-size: 14px;
   }
-  .imgder {
-    display: none !important;
+  div.col .imgder {
+    display: none;
   }
-  .imgiz {
-    display: none !important;
+  div.col .imgiz {
+    display: none;
   }
 }
 @media (max-width: 880px) {
