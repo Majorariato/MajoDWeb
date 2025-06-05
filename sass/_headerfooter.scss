@@ -6,8 +6,8 @@ ol, ul {
 
 header {
   padding-top: 5px;
-  filter: drop-shadow(0 0 0.75rem #181818);
   background-color:$colorp;
+  @include shadow;
 }
 
 nav ul{
@@ -23,7 +23,7 @@ a {
   font-weight: 500;
   font-size: 200%;
   text-decoration: none;
-  color: #373b3e;
+  color:$colorf;
 }
 
 .nav-link{
@@ -44,7 +44,7 @@ footer {
   padding-bottom: 10px;
   text-align: center;
   margin-top: 30px;
-  filter: drop-shadow(0 0 0.75rem #181818);
+  @include shadow;
 }
 
 .offcanvas{

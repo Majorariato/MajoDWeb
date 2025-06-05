@@ -7,7 +7,7 @@
   padding: 20px;
   border-radius: 10px;
   width: -webkit-fill-available;
-  filter: drop-shadow(0 0 0.75rem #181818);
+  @include shadow;
 }
 
 .button-form {

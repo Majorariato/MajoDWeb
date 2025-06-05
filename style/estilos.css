@@ -4,8 +4,8 @@ ol, ul {
 
 header {
   padding-top: 5px;
-  filter: drop-shadow(0 0 0.75rem #181818);
   background-color: #86cecb;
+  filter: drop-shadow(0 0 0.75rem #181818);
 }
 
 nav ul {
@@ -208,6 +208,12 @@ main {
   }
   .description {
     font-size: 14px;
+  }
+  .imgder {
+    display: none !important;
+  }
+  .imgiz {
+    display: none !important;
   }
 }
 @media (max-width: 880px) {
