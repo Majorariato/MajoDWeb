@@ -221,6 +221,9 @@ main {
     visibility: hidden;
     display: none;
   }
+  .tetoflex .description {
+    margin: 0;
+  }
 }
 @media (max-width: 480px) {
   .logo {
